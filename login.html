@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a1f44" />
+    <meta name="description" content="Acceso de demostración a Construcciones Elif García." />
+    <title>Iniciar sesión - Construcciones Elif García</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <script src="js/login.js" defer></script>
+  </head>
+  <body class="login-page">
+    <main class="login-screen">
+      <section class="login-panel" aria-labelledby="login-title">
+        <a class="login-brand" href="login.html" aria-label="Construcciones Elif García, acceso">
+          <span class="login-brand-mark" aria-hidden="true">EG</span>
+          <span>Construcciones<br /><strong>Elif García</strong></span>
+        </a>
+        <p class="login-eyebrow">Portal de acceso</p>
+        <h1 id="login-title">Bienvenido</h1>
+        <p class="login-intro">Inicia sesión para explorar nuestro sitio de demostración.</p>
+
+        <form class="login-form" id="loginForm" novalidate>
+          <label for="username">Usuario</label>
+          <input id="username" name="username" type="text" autocomplete="username" required maxlength="40" />
+
+          <label for="password">Contraseña</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" required maxlength="80" />
+
+          <button class="login-submit" type="submit">Entrar al sitio</button>
+          <p class="login-message" id="loginMessage" role="alert" aria-live="polite"></p>
+        </form>
+
+        <p class="login-demo">Acceso de demostración: <strong>user</strong> / <strong>123</strong></p>
+      </section>
+      <p class="login-caption">Construcciones Elif García <span aria-hidden="true">·</span> Construimos tu futuro con solidez</p>
+    </main>
+  </body>
+</html>
